@@ -1,34 +1,46 @@
 /*********************************
 Creating the circles and nesting the text within them
 */
+body{
+    background: url("../images/itBuilding.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-h1{
-    text-align: center;
+img{
+    position: absolute;
+
+}
+h1 {
+    display: none;
 }
 h2{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color:#fff;
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+    padding: 10px;
+}
+
+#wrapper {
+    margin-top: 10px;
 }
 .rounded{
     border-radius: 50%;
 }
 .shape {
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 230px;
     background-color: #613f72;
-    line-height:200px;
-}
-
-.video{
-    margin: 30px auto;
+    line-height:230px;
 }
 
 .shape2{
-    height:600px;
-    width:1000px;
+    height:482px;
+    width:808px;
     background-color: #613f72;
     line-height:400px;
     text-align: center;
@@ -43,19 +55,39 @@ h2{
     justify-content: center;
 }
 
-.shapeL {
-    margin-right: 100px;
+.shapeLB {
+    margin-right: 400px;
+    margin-top: -300px;
 }
 
-.shapeR {
-    margin-left: 100px;
+.shapeRB {
+    margin-left: 400px;
+    margin-top: -300px;
+}
+
+.shapeRT {
+    margin-left: 400px;
+    margin-bottom: -300px;
+}
+
+.shapeLT {
+    margin-right: 400px;
+    margin-bottom: -300px;
 }
 
 .shapeT {
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 
 .shapeB {
-    margin-top:100px;
+    margin-top:40px;
+    margin-bottom: 0;
+
 }
+
+video {
+    margin-top: 25px;
+}
+
+
 
