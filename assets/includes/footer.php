@@ -6,7 +6,8 @@
  * Time: 2:52 PM
  */
 ?>
-<footer><a href="index.php">Home</a> </footer>
+<footer class="footer"><a href="index.php">Home</a> </footer>
+</div> <!-- end .container-grid -->
 </div> <!-- end #wrapper -->
 </body>
 </html>
