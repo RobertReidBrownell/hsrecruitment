@@ -5,42 +5,18 @@
  * Date: 9/19/17
  * Time: 10:08 AM
  */
+include './assets/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-	<!-- Basic Page Needs
-	                ================================================== -->
-	<meta charset="utf-8">
-	<title>IT Courses</title>
-	<meta name="description" content="The home page for Francis Tuttle IT Course's recruitment">
-	<meta name="author" content="Robert Reid Brownell">
-
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-  ================================================== -->
-	<link href='./assets/css/style.css' rel='stylesheet'>
-</head>
-<body>
-<header>
-     <img src="assets/images/logo.png">
-    <h1>Information Technology</h1>
-</header>
-<div id="wrapper">
 
 <div class="row alignC">
-    <div class="shape shapeLT rounded"><a href="#"><h2>2D Animation &amp; Character Design</h2></a></div>
-    <div class="shape shapeT rounded"><a href="#"><h2>3D Animation &amp; Visual Effects</h2></a></div>
-    <div class="shape shapeRT rounded"><a href="#"><h2>Programming &amp; Software Development</h2></a></div>
+    <div class="shape shapeLT rounded"><a href="2d.php"><h2>2D Animation &amp; Character Design</h2></a></div>
+    <div class="shape shapeT rounded"><a href="3d.php"><h2>3D Animation &amp; Visual Effects</h2></a></div>
+    <div class="shape shapeRT rounded"><a href="psd.php"><h2>Programming &amp; Software Development</h2></a></div>
 </div><!-- end .row .alignC -->
 
 <div class="row alignC">
-    <div class="shape2 rounded videoContainer">
-        <video onclick="vidplay()" loop id="graduation" autoplay class="rounded video" controls width="768px" height="432px" src="assets/videos/it_completion.mov">
+    <div class="shape2">
+        <video onclick="vidplay()" loop id="graduation" autoplay class="video" controls width="768px" height="432px" src="assets/videos/it_completion.mov">
 
             </video>
     </div><!-- end .shape2 .rounded .videoContainer -->
@@ -49,9 +25,9 @@
 
 
 <div class="row alignC">
-    <div class="shape shapeLB rounded"><a href="#"><h2>Web Design &amp; Development</h2></a></div>
-    <div class="shape shapeB rounded"><a href="#"><h2>Graphic Communications</h2></a></div>
-    <div class="shape shapeRB rounded"><a href="#"><h2>Broadcast &amp; Video Production</h2></a></div>
+    <div class="shape shapeLB rounded"><a href="wdd.php"><h2>Web Design &amp; Development</h2></a></div>
+    <div class="shape shapeB rounded"><a href="gcom.php"><h2>Graphic Communications</h2></a></div>
+    <div class="shape shapeRB rounded"><a href="bvp.php"><h2>Broadcast &amp; Video Production</h2></a></div>
 </div><!-- end .row .alignC  -->
 
 <script type="text/javascript">

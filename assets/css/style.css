@@ -10,6 +10,8 @@ body{
 
 img{
     position: absolute;
+    top: 4%;
+    left: 4.5%;
 
 }
 h1 {
@@ -17,12 +19,17 @@ h1 {
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color:#fff;
     display: inline-block;
-    vertical-align: middle;
     line-height: normal;
     padding: 10px;
+    font-size: 27px;
+
+}
+.shape h2{
+    color:#fff;
+
+    text-align: center;
+    vertical-align: middle;
 }
 
 #wrapper {
@@ -32,27 +39,28 @@ h2{
     border-radius: 50%;
 }
 .shape {
-    height: 220px;
-    width: 220px;
-    border: 5px ridge black;
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
     background: #a16bbf; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #a16bbf 0%, #613f72 61%, #613f72 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #a16bbf 0%,#613f72 61%,#613f72 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #a16bbf 0%,#613f72 61%,#613f72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a16bbf', endColorstr='#613f72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    line-height:220px;
+    line-height:250px;
 }
 
 .shape2{
-    height:482px;
-    width:808px;
+    height: 472px;
+    width: 800px;
     background: #a16bbf; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #a16bbf 0%, #613f72 61%, #613f72 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #a16bbf 0%,#613f72 61%,#613f72 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #a16bbf 0%,#613f72 61%,#613f72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a16bbf', endColorstr='#613f72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    line-height:400px;
     text-align: center;
+    margin-top: 8px;
+    border-radius: 5%;
 }
 
 .row {
@@ -65,37 +73,39 @@ h2{
 }
 
 .shapeLB {
-    margin-right: 400px;
+    margin-right: 500px;
     margin-top: -300px;
 }
 
 .shapeRB {
-    margin-left: 400px;
+    margin-left: 500px;
     margin-top: -300px;
 }
 
 .shapeRT {
-    margin-left: 400px;
+    margin-left: 500px;
     margin-bottom: -300px;
 }
 
 .shapeLT {
-    margin-right: 400px;
+    margin-right: 500px;
     margin-bottom: -300px;
 }
 
 .shapeT {
-    margin-bottom:50px;
+    margin-bottom:45px;
+    margin-top: 5px ;
 }
 
 .shapeB {
-    margin-top:40px;
+    margin-top:70px;
     margin-bottom: 0;
 
 }
 
 video {
-    margin-top: 25px;
+    margin-top: 18px;
+    border-radius: 5%;
 }
 
 
