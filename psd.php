@@ -7,6 +7,34 @@
  */
 include './assets/includes/header.php';
 ?>
+<div class="container-grid">
+	<div class="course-row">
+		<h2>Programming &amp; Software Development</h2>
+		<h3></h3>
+		<h4>Will you make the next app or program that is an overnight success?</h4>
+	</div> <!-- end .course-row -->
+
+	<div class="course-desc">
+		<p>A video showing the power of C&#35; in a cookie order form</p>
+	</div><!-- end .course-desc -->
+
+	<div class="course-center">
+		<video onclick="vidplay()" id="psd" controls  src="assets/videos/cookie_c_psd.mov">
+		</video>
+	</div><!-- end .course-center -->
+	<script type="text/javascript">
+        var video = document.getElementById("psd");
+        video.volume = 0.1;
+        // called in HTML
+        function vidplay() {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+
+	</script>
 
 
 <?php

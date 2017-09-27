@@ -13,10 +13,10 @@ include './assets/includes/header.php';
     <h3>Become a Champion with Web Design &amp; Development!</h3>
     <h4>Francis Tuttle's Web Design and Development class is currently the three time defending National Champions in the
 	post-secondary division of Web site Design</h4>
-	</div> <!-- end .top-row -->
+	</div> <!-- end .course-row -->
 
     <div class="course-desc">
-            <p>Learn how to turn the style tile (left) into the website that won the National Championship in 2017 (right).</p>
+            <p>Learn how to turn the style tile (left) into a championship winning website.(right)</p>
     </div><!-- end .course-desc -->
     <div class="course-content"></div><!-- end .course-content -->
         <div class="course-left">

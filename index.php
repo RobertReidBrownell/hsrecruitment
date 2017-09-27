@@ -17,7 +17,6 @@ include './assets/includes/header.php';
 <div class="row alignC">
     <div class="shape2">
         <video onclick="vidplay()" loop id="graduation" autoplay class="video" controls  src="assets/videos/it_completion.mov">
-
             </video>
     </div><!-- end .shape2 .rounded .videoContainer -->
 </div><!-- end .row .alignC  -->
@@ -32,7 +31,7 @@ include './assets/includes/header.php';
 <script type="text/javascript">
     var video = document.getElementById("graduation");
     video.volume = 0.1;
-    // auto called in HTML
+    // called in HTML
     function vidplay() {
         if (video.paused) {
             video.play();
