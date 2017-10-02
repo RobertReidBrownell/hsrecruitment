@@ -30,7 +30,7 @@ include './assets/includes/header.php';
 
 <script type="text/javascript">
     var video = document.getElementById("graduation");
-    video.volume = 0.1;
+    video.volume = 0.2;
     // called in HTML
     function vidplay() {
         if (video.paused) {

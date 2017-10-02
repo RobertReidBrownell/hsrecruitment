@@ -24,7 +24,7 @@ include './assets/includes/header.php';
 		</div><!-- end .course-center -->
 		<script type="text/javascript">
             var video = document.getElementById("cd");
-            video.volume = 0.1;
+            video.volume = 0.4;
             // called in HTML
             function vidplay() {
                 if (video.paused) {
