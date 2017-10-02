@@ -15,7 +15,7 @@ include './assets/includes/header.php';
 	</div> <!-- end .course-row -->
 
 	<div class="course-desc">
-		<p>A video showing the power of C&#35; in a cookie order form</p>
+		<p>A mobile game created by a student!</p>
 	</div><!-- end .course-desc -->
 
 	<div class="course-center">
