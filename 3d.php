@@ -18,7 +18,7 @@ include './assets/includes/header.php';
 			<p>This demo video shows you what you could learn to create.</p>
 		</div><!-- end .course-desc -->
 		<div class="course-center">
-			<video onclick="vidplay()" id="fx" controls  src="assets/videos/futuristic_car_3D.mp4">
+			<video onclick="vidplay()" autoplay id="fx" controls  src="assets/videos/futuristic_car_3D.mp4">
 			</video>
 		</div><!-- end .course-center -->
 		<script type="text/javascript">

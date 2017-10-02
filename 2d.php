@@ -19,7 +19,7 @@ include './assets/includes/header.php';
 			<p>Learn how to make your random day dreams and ideas come to life.</p>
 		</div><!-- end .course-desc -->
 		<div class="course-center">
-			<video onclick="vidplay()" id="cd" controls  src="assets/videos/2D_when_a_dragon_moves_in.mp4">
+			<video onclick="vidplay()" autoplay id="cd" controls  src="assets/videos/2D_when_a_dragon_moves_in.mp4">
 			</video>
 		</div><!-- end .course-center -->
 		<script type="text/javascript">
