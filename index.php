@@ -24,7 +24,7 @@ include './assets/includes/header.php';
 
 <div class="row alignC">
     <div class="shape shapeLB rounded"><a href="wdd.php"><h2>Web Design &amp; Development</h2></a></div>
-    <div class="shape shapeB rounded"><a href="gcom.php"><h2>Graphic Communications</h2></a></div>
+    <div class="shape shapeB rounded"><a href="gcom.php"><h2>Graphic Comm.</h2></a></div>
     <div class="shape shapeRB rounded"><a href="bvp.php"><h2>Broadcast &amp; Video Production</h2></a></div>
 </div><!-- end .row .alignC  -->
 

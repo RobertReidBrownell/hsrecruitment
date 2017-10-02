@@ -17,7 +17,7 @@ h1 {
 h2{
     display: inline-block;
     line-height: normal;
-    padding: 2px;/*was 10px*/
+    padding: 4px;/*was 10px*/
     font-size: 40px;/*was 27px*/
 }
 
@@ -171,8 +171,8 @@ img.gcom {
 }
 
 .shape {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     border: 5px solid black;
     box-shadow:1px 1px 50px #000 ;
     background: #a16bbf; /* Old browsers */
@@ -180,7 +180,8 @@ img.gcom {
     background: -webkit-linear-gradient(-45deg, #a16bbf 0%,#613f72 61%,#613f72 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #a16bbf 0%,#613f72 61%,#613f72 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a16bbf', endColorstr='#613f72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    line-height: 300px;
+    line-height: 280px;
+    padding: 5px;
 
 }
 
@@ -233,7 +234,7 @@ img.gcom {
 }
 
 .shapeB {
-    margin-top:110px;
+    margin-top:40px;
     margin-bottom: 0;
 
 }
