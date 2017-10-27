@@ -20,7 +20,7 @@ html,body {
 
 .top-left {
     grid-area: tLeft;
-    /*background: green;*/
+    background: green;
     height: 100%;
     width: 100%;
 
@@ -61,7 +61,7 @@ html,body {
     height: 100%;
 }
 
-.fx {
+.video {
     width: 100%;
     /*transform:  scaleX(.75) scaleY(1);*/
 }
