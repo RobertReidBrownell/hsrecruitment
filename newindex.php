@@ -9,3 +9,4 @@ set_include_path('/Applications/XAMPP/xamppfiles/htdocs/hsrecruitment/assets/inc
 
 require_once 'initialize.php';
 include_layout_template('header.php');
+
