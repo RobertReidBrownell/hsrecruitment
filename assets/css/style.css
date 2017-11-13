@@ -6,6 +6,8 @@ body{
     position: relative;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+    max-height: 1200px;
 
 }
 
@@ -55,9 +57,9 @@ img.logo{
 
 .container-grid {
     display: grid;
-    grid-template-rows:[header] 120px [course] 290px [paddingT] 15px [courseDesc] 100px [paddingB] 15px
+    grid-template-rows:[header] 10% [course] 290px [paddingT] 15px [courseDesc] 100px [paddingB] 15px
     [row4] 290px [row5] 210px [buffer] 80px [foot] 30px;
-    grid-template-columns: [colLeft] 288px [colMiddleLeft] 672px [colMiddleRight] 672px [colRight] 288px;
+    grid-template-columns: [colLeft] 15% [colMiddleLeft] 35% [colMiddleRight] 35% [colRight] 15%;
 }
 
 .course-row {

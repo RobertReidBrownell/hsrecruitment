@@ -15,12 +15,12 @@
 
         <!-- CSS
 	  ================================================== -->
-        <link href='./assets/css/normalize.css' rel='stylesheet'>
-        <link href='./assets/css/style.css' rel='stylesheet'>
+        <link href='assets/css/normalize.min.css' rel='stylesheet'>
+        <link href='assets/css/style.min.css' rel='stylesheet'>
     </head>
     <body>
     <header>
-        <img class="logo" src="assets/images/logo.png" alt="Francis Tuttle Logo image">
+        <img class="logo" src="../images/logo.png" alt="Francis Tuttle Logo image">
         <h1>Francis Tuttle Information Technology Courses</h1>
     </header>
     <div id="wrapper">

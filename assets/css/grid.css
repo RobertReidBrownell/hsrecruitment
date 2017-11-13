@@ -429,7 +429,10 @@ th {
 html,body {
     height:100%;
     width: 100%;
-    background: green;
+    color: white;
+    background: url("../images/itBuilding.png") no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -517,6 +520,7 @@ h2{
     position: absolute;
     left: 15%;
     font-size: 3em;
+
 }
 
 .top-middle h2,
