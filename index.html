@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Basic page needs
+    =============================-->
+<head>
+<meta charset="utf-8">
+<title>SMACSS</title>
+<meta name="description" content="Getting to know SMACCS">
+<meta name="author" content="Robert Reid Brownell">
+    
+<!-- Mobile Specific Metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+   <!-- CSS
+================================================== -->
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Peralta">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/base.min.css"> 
+    </head>
+    
+<!--Primary Page Layout
+    ================================-->
+    <body>
+    <header id="banner">
+    <img class="logo" src="img/logo.png" alt="thelibrary logo" title="thelibrarylogo">
+       <nav class="clearfix">
+            <a href="#update">Contact</a>
+            <a href="#show">Examples</a>
+            <a href="#about">About</a>           
+      </nav>
+      
+       
+           </header>
+        <img src="img/book_pattern.jpg" alt="book pattern" class="books">
+        
+        <main>
+        <article>
+            <h1>Ready to get Smacked?</h1>
+            <section id="about">
+	            <div class="intro pod">
+                <h2>What exactly is SMACSS?</h2>
+                <p>SMACSS stands for <b>S</b>calable and <b>M</b>odular <b>A</b>rchitecture for <b>CSS</b>, (pronounced “smacks”) it was created by Jonathan Snook and is more style guide than rigid framework.  There is no library for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.</p>
+                <h2>Organization</h2>
+                <p>At the very core of SMACSS is categorization. By categorizing CSS rules, we begin to see patterns and can define better practices around each of these patterns.There are five types of categories.</p>
+                  </div> <!-- intro -->
+                  <div class="indepth pod">
+                <h2 class="cat">Category rules</h2>
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active rules"><a role="tab" data-toggle="tab" href="#base">Base</a></li>
+            <li role="presentation"><a class="rules" role="tab" data-toggle="tab" href="#layout">Layout</a></li>
+            <li role="presentation"><a class="rules" role="tab" data-toggle="tab" href="#module">Module</a></li>
+            <li role="presentation"><a class="rules" role="tab" data-toggle="tab" href="#state">State</a></li>
+            <li role="presentation"><a class="rules" role="tab" data-toggle="tab" href="#theme">Theme</a></li>      
+        </ul>                
+                <div class="tab-content">
+	                 <div role="tabpanel" class="tab-pane active" id="base"><p><b>Base rules</b> are the defaults. They are almost exclusively single element selectors but it could include attribute selectors, pseudo-class selectors, child selectors or sibling selectors. Essentially, a base style says that wherever this element is on the page, it should look like this.</p></div> <!-- tabpanel base -->
+	                 <div role="tabpanel" class="tab-pane" id="layout"><p><b>Layout rules</b> divide the page into sections. Layouts hold one or more modules together.</p></div> <!-- tabpanel layout -->
+	                 <div role="tabpanel" class="tab-pane" id="module"><p><b>Modules</b> are the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on.</p></div> <!-- tabpanel module -->
+	                 <div role="tabpanel" class="tab-pane" id="state"><p><b>State rules</b> are ways to describe how our modules or layouts will look when in a particular state. Is it hidden or expanded? Is it active or inactive? They are about describing how a module or layout looks on screens that are smaller or bigger. They are also about describing how a module might look in different views like the home page or the inside page.</p></div> <!-- tabpanel state -->
+	                 <div role="tabpanel" class="tab-pane" id="theme"><p><b>Theme rules</b> are similar to state rules in that they describe how modules or layouts might look. Most sites don’t require a layer of theming but it is good to be aware of it.</p></div>  <!-- tabpanel theme -->
+	            </div>  <!-- tab-content -->
+	            </div> <!-- indepth pod-l -->
+                 <div class="pod examples">                
+                 <div id="show" class="exm"><p class="exm-caption">Example of code pre getting Smacked.</p>
+                 <pre class="codesnippet">
+	                 <code>
+  .box { width: 200px; }
+
+  .box ul { width: 100px; }
+
+  #sidebar .box ul { width: 200px; }</code>
+					 </pre>
+					 </div> <!-- exm div -->
+					 
+					 <p>The above example can quickly lead to specificity issues by continuing to be more and more specific, a better approach would be to subclass the box module for the side bar and apply the subclass as shown below</p>
+				<div class="exm"><p class="exm-caption">Example of code post getting Smacked.</p>
+	                 <pre class="codesnippet">
+					 	<code>
+  .box { width: 200px; }
+
+  .box-contstrained { width: 100px; }</code>
+					</pre>
+				</div> <!-- exm div -->    
+	             <p> The above example might seem simple and like it won't make much difference. However, if we take the time to think about how many fewer selectors we would have to write if we didn't have to do so much overwriting and figuring out more specific selectors to correctly overwrite our previous rules it could save us a lot of time. From what I have found through my research and testing the time spent on the front end in the HTML more than makes up for the amount of reduction in the CSS writing phase.</p> 
+	             </div> <!-- examples pod --> 	
+                 </section> <!-- About -->
+            <div class="pod">
+                <h2>But you don't have to take my word for it,</h2>
+                <p>Below are some fantastic resources I found for better understanding SMACSS including the website where you can buy the book or register for a workshop.</p>
+                <ul class="link">
+                 <li><a href="http://vanseodesign.com/css/smacss-introduction/">An Introduction to SMACSS by Steven Bradley</a> </li>              
+                 <li><a href="https://www.viget.com/articles/css-squareoff">CSS Strategy Square-off by Doug Avery</a></li>   
+                 <li><a href="https://smacss.com/">SMACSS website</a></li>   
+                </ul>
+                  <!-- link -->           
+                <h2>Shoptalk Podcast: ft. the creator of SMACSS Jonathan Snook</h2>
+              <audio controls class="clip">
+			  	<source src="assets/shoptalk_ft_jonathan_snook.mp3" type="audio/mpeg">
+			  			Your browser does not support the audio element.
+			  				</audio>        
+              </div>
+            
+            <section id="update" class="pod">
+            <h2>Stay up to date  with SMACSS</h2>
+           <aside class="smacss clearfix"><a href="https://smacss.com/" target="_blank"><img class="smaccslogo" src="img/jack-head.png" alt="SMACCS Jack Head logo"><p>Scalable&nbsp;and&nbsp;Modular Architecture&nbsp;for&nbsp;CSS</p></a></aside>  	                    <form id="contactForm" name="updated" onsubmit="return validateForm()">
+							<fieldset class="uptodate">
+								<legend>&nbsp;&nbsp;Required fields are followed by <strong><abbr>*</abbr></strong>.&nbsp;&nbsp;</legend> 
+								<ul class="form">     
+									<li> <label>Name:<strong><abbr>*</abbr></strong></label>
+									<input class="field" name="name" placeholder="Your name..." required=""> </li>
+									<li><label>Email address:<strong><abbr>*</abbr></strong></label>
+									<input class="field" type="email" name="email" placeholder="Your email address..." required=""></li>
+									<li><label>Message:</label><textarea name="message" placeholder="Thoughts or comments on SMACSS"></textarea> </li>
+
+								</ul>
+								<button type="submit" name="submit" class="submit">Updates</button>
+							</fieldset>                 
+                    
+                    	</form>
+
+                
+                
+            
+                </section> <!-- update -->
+            <a href="#banner" class="upugo"><p>Back to top</p></a>
+        <!--Footer
+================================-->
+       <footer><span>&copy; Francis Tuttle Web Design and Development &ndash; Robert Reid Brownell<br></span>
+	       <span class="snookcr">The LumberJack head logo is owned by &copy; Snook.ca Web Development,Inc. and used with permission</span>
+       </footer> <!-- footer -->
+            </article>  <!-- Main article content -->
+        </main>
+       <script src="js/jquery-2.1.4.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script> 
+				function validateForm() {
+    var x = document.forms["updated"]["name"].value;
+    var y = document.forms["updated"]["email"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    } else if (y == "") {
+	    alert("Email must be filled out");
+    }
+}
+</script>  
+    </body>
+</html>

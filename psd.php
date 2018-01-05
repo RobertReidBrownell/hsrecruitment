@@ -19,7 +19,7 @@ include './assets/includes/header.php';
 	</div><!-- end .course-desc -->
 
 	<div class="course-center">
-		<video onclick="vidplay()" autoplay id="psd" controls  src="assets/videos/psd_mobilegame.mov">
+		<video onclick="vidplay()" id="psd" controls  src="assets/videos/psd_mobilegame.mov">
 		</video>
 	</div><!-- end .course-center -->
 	<script type="text/javascript">

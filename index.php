@@ -16,7 +16,7 @@ include './assets/includes/header.php';
 
 <div class="row alignC">
     <div class="shape2">
-        <video onclick="vidplay()" loop id="graduation" autoplay class="video" controls  src="assets/videos/it_completion.mov">
+        <video onclick="vidplay()" loop id="graduation" class="video" controls  src="assets/videos/it_completion.mov">
             </video>
     </div><!-- end .shape2 .rounded .videoContainer -->
 </div><!-- end .row .alignC  -->

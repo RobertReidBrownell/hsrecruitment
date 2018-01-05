@@ -18,7 +18,7 @@ include './assets/includes/header.php';
 			<p>Wouldn't it be fun to make your own commercials?</p>
 		</div><!-- end .course-desc -->
 		<div class="course-center">
-			<video onclick="vidplay()" autoplay id="bvp" controls src="assets/videos/bvp_commercial.mov">
+			<video onclick="vidplay()" id="bvp" controls src="assets/videos/bvp_commercial.mov">
 			</video>
 		</div><!-- end .course-center -->
 		<script type="text/javascript">
